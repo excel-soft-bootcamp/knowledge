@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\excelsoft\Examples\EventDrivenProgram\bin\Debug\EventDrivenProgram.exe.config
+C:\Users\user\source\repos\excelsoft\Examples\EventDrivenProgram\bin\Debug\EventDrivenProgram.exe
+C:\Users\user\source\repos\excelsoft\Examples\EventDrivenProgram\bin\Debug\EventDrivenProgram.pdb
+C:\Users\user\source\repos\excelsoft\Examples\EventDrivenProgram\obj\Debug\EventDrivenProgram.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\excelsoft\Examples\EventDrivenProgram\obj\Debug\EventDrivenProgram.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\excelsoft\Examples\EventDrivenProgram\obj\Debug\EventDrivenProgram.exe
+C:\Users\user\source\repos\excelsoft\Examples\EventDrivenProgram\obj\Debug\EventDrivenProgram.pdb
