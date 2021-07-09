@@ -55,6 +55,9 @@ namespace EventDrivenProgram
             Program _programObj = new Program();
             IntReturnTypeDelegate newFoo1MethodObj = new IntReturnTypeDelegate(_programObj.NewFoo2);
             IntReturnTypeDelegate newFoo2MethodObj = new IntReturnTypeDelegate(Program.NewFoo1);
+            //System.Delegate.Combine(newFoo1MethodObj, newFoo2MethodObj);
+            newFoo1MethodObj += newFoo2MethodObj;
+            
             IntReturnStringArgumentDelegate enoughFooMethodObj = new IntReturnStringArgumentDelegate(Program.EnoughFoo);
             Fun(data, fooMethodObj, newFoo1MethodObj, enoughFooMethodObj);
       
@@ -81,6 +84,10 @@ namespace EventDrivenProgram
 
             
             Child _elder = new Child();
+              //Subscribe
+           /* _elder.OnJobStatusChanged += _addressOfNotify; //Add_observer
+            _elder.OnJobStatusChanged+= _addressOfUpdate; //Add_observer
+            */
             _elder.Add_Observer(_addressOfNotify);
             _elder.Add_Observer(_addressOfUpdate);
 
