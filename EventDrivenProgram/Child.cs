@@ -32,4 +32,18 @@ namespace EventDrivenProgram
             observers.Remove(observer);
         }
     }
+    /*
+    public class Child
+    {
+       string jobStatus="UnEmployeed";
+       public event  JobStatusHanlder OnJobStatusChanged;
+        public void GotNewJob()
+        {
+            jobStatus = "Employeed";
+            OnJobStatusChanged.Invoke(this.jobStatus);
+
+        }
+        
+    }
+    */
 }
