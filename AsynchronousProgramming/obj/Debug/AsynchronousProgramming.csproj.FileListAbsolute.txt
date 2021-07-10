@@ -1,0 +1,6 @@
+C:\Users\user\source\repos\excelsoft\Examples\AsynchronousProgramming\bin\Debug\AsynchronousProgramming.exe.config
+C:\Users\user\source\repos\excelsoft\Examples\AsynchronousProgramming\bin\Debug\AsynchronousProgramming.exe
+C:\Users\user\source\repos\excelsoft\Examples\AsynchronousProgramming\bin\Debug\AsynchronousProgramming.pdb
+C:\Users\user\source\repos\excelsoft\Examples\AsynchronousProgramming\obj\Debug\AsynchronousProgramming.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\excelsoft\Examples\AsynchronousProgramming\obj\Debug\AsynchronousProgramming.exe
+C:\Users\user\source\repos\excelsoft\Examples\AsynchronousProgramming\obj\Debug\AsynchronousProgramming.pdb
