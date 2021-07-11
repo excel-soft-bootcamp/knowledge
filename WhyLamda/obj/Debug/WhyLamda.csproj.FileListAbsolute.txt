@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\excelsoft\Examples\WhyLamda\bin\Debug\WhyLamda.exe.config
+C:\Users\user\source\repos\excelsoft\Examples\WhyLamda\bin\Debug\WhyLamda.exe
+C:\Users\user\source\repos\excelsoft\Examples\WhyLamda\bin\Debug\WhyLamda.pdb
+C:\Users\user\source\repos\excelsoft\Examples\WhyLamda\obj\Debug\WhyLamda.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\excelsoft\Examples\WhyLamda\obj\Debug\WhyLamda.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\excelsoft\Examples\WhyLamda\obj\Debug\WhyLamda.exe
+C:\Users\user\source\repos\excelsoft\Examples\WhyLamda\obj\Debug\WhyLamda.pdb

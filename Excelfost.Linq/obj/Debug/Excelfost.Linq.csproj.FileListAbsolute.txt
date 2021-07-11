@@ -1,0 +1,6 @@
+C:\Users\user\source\repos\excelsoft\Examples\Excelfost.Linq\bin\Debug\Excelfost.Linq.dll
+C:\Users\user\source\repos\excelsoft\Examples\Excelfost.Linq\bin\Debug\Excelfost.Linq.pdb
+C:\Users\user\source\repos\excelsoft\Examples\Excelfost.Linq\obj\Debug\Excelfost.Linq.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\excelsoft\Examples\Excelfost.Linq\obj\Debug\Excelfost.Linq.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\excelsoft\Examples\Excelfost.Linq\obj\Debug\Excelfost.Linq.dll
+C:\Users\user\source\repos\excelsoft\Examples\Excelfost.Linq\obj\Debug\Excelfost.Linq.pdb
