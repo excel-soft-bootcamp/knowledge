@@ -1,0 +1,91 @@
+
+Lamda
+    (argumnets)=>{Method Body};
+
+Main(){
+
+//Action  obj=new Action(target);
+
+Action obj=()=>{ /*Method Body */};
+
+Func<int,int,int> obj2=(int x,int y)=>{ return x+y;};
+
+						int _Anonymous_Method1(int x,int y)
+						{
+							return x+y;
+						}
+						Func<int,int,int> obj2	= new Func<int,int,int>(_Anonymous_Method1);
+
+Action<int> obj3=(int x)=>{ /* Method Body */};
+
+Test(obj,obj2,obj3);
+
+Test(()=>{},(int x,int y)=>{return x+y;},(int x)=>{});
+
+
+
+}
+
+
+void Test(Action obj, Func<int,int,int> obj2,Action<int> obj3)
+{
+obj.Invoke();
+int result =obj2.Invoke(10,20);
+
+}
+
+void NewTest(Func<int,string> obj1, Action<string,string> obj2, Func<int,string,int> obj3){
+
+}
+
+
+NewTest(
+      (int x)=>{ return "Hello";},
+	  (string x,string y)=>{Console.WriteLine(x+y);},
+	  (int x, string y)=>{ return 100;}
+	  );
+	  
+	  interface IEnumerable{
+	  void Fun();
+	  }
+	  
+	  class Array:IEnumerable{
+	  
+	  public void Fun(){}
+	  }
+	  
+	  class List:IEnumerable{
+	  public void Fun(){}
+	  }
+	  }
+	  
+	  class Dictionary:IEnumerable{
+	  public void Fun(){}
+	  }
+	  }
+	  
+	  ..Query Opertaions on IEnumerable Type: "Language Integated Query"
+	  Generics
+	  Iterator Pattern
+	  Function As Arguments
+	  Source As Arguments
+	  
+	  void Filter(IEnumerable arg){
+	  
+	  arg.Fun();
+	  
+	  }
+	  Join
+	  OrderBy
+	  GroubBy
+	  Select
+	  Min
+	  Max
+	  Reverse
+	  Copy
+	  Any
+	  All
+	  
+	  Filter(new A());
+	  Filter(new L());
+	  Filter(new D());
