@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function onStateChanged() {
+
+            var stateCode = document.getElementById("stateCombo").value;
+            //AJAX Code
+
+            var httpReq = new XMLHttpRequest();
+            httpReq.onreadystatechange = function () {
+
+                if (httpReq.readyState == 4) {
+
+                    if (httpReq.status == 200) {
+
+                        cities = httpReq.responseText.split(",");
+                        var cityCombo = document.getElementById("cityCombo");
+                        cityCombo.innerText = "";
+                        for (var i = 0; i < cities.length; i++) {
+
+                            var option = document.createElement("option");
+                            option.innerText = cities[i];
+                            cityCombo.appendChild(option);
+
+                        }
+                    }
+
+                }
+
+            }
+            httpReq.open("GET", "https://localhost:44344/GetCities.ashx?statecode=" + stateCode, true);
+          
+            httpReq.send();
+        }
+
+
+    </script>
+</head>
+<body>
+    <div>
+    <p>
+        States:<select name="stateCombo" onchange="onStateChanged()" id="stateCombo">
+            <option selected="selected" value="KA">KA</option>
+            <option value="TN">TN</option>
+            <option value="AP">AP</option>
+            <option value="MH">MH</option>
+
+        </select>
+    </p>
+    <p>
+        Cities:<select name="cityCombo" id="cityCombo">
+        </select>
+    </p>
+
+    </div>
+</body>
+</html>
